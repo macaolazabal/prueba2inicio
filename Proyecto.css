@@ -1,0 +1,1307 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100&family=Manrope&display=swap');
+
+@media (min-width:375px){
+
+    #inicio {
+        background-image: url('FONDO INICIO.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+    .container {
+        display: flex; 
+    }
+
+    #navbar {
+        height: 6.82206%;
+        width: 100%;
+    }
+
+    #logo {
+        padding-left: 8.4375%;
+        padding-top: 3.35418%;
+        width: 17.0755%;
+        height: 3.6191%;
+        flex-shrink: 0;
+    }
+
+    .menu-btn {
+        margin-top: 9.69549vw;
+        margin-right: 9.418476vw;
+        width: 4.986252vw;
+        height: 4.432224vw;
+        cursor: block;
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-top: -0%;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: -3%;
+        width: 60%;
+    }
+
+    .navbarContent {
+        margin-right: 5.32175%;
+        color: #082D00;
+        text-decoration: none;
+        font-size: 1.8vw;
+        font-family: 'Manrope', sans-serif;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    #navbarContentHistoria {
+        width: 29.5%;
+    }
+
+    nav ul li a:hover {
+        text-decoration:underline;
+    }
+
+    #title {
+        position: relative;
+        padding-left: 8.02083%;
+        padding-top: 13.48664%;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 6vw;
+        font-weight: 800;
+        text-align: left;
+        padding-bottom: 0%;
+        margin: 0%;
+        line-height: 7vw;
+    }
+
+    #parrafoSuscripcion {
+        padding-left: 8.4375%;
+        width: 37.34375%;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.8vw;
+        font-weight: 400;
+        margin: 0%;
+        padding-top: 1.81922%;
+    }
+
+    #botonUnite {
+        display: flex;
+        text-decoration: none;
+        color: #FFF;
+        margin-top: 3vw;
+        margin-left: 8.59375%;
+        width: 15.78125%;
+        height: 4vw;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.8vw;
+        font-weight: 400;
+        background-color: #DF3C4B;
+        border-radius: 50px;
+    }
+
+    #botonUnite:hover {
+        background-color: #bb313f;
+    }
+
+    #parrafoPasos {
+        display: flex;
+        margin-top: 14.21262%;
+        margin-left: 8.59375%;
+        color: #082D00;
+        font-size: 3vw;
+        font-weight: 500;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    #pasos {
+        margin-top: 0.568505%;
+        height: 20.75043%; 
+        width: 100%;
+    }
+
+    #pasosImgMovil {
+        display: none;
+    }
+
+    .pasos {
+        margin-left: 8.28125%;
+        margin-right: 13%;
+        
+    }
+
+    #ELEGITUPLAN {
+        width: 14.739583%;
+        height: 72.328767%;
+    }
+
+    #RECIBITUSPLANTAS {
+        width: 13.072916%;
+        height: 75.616438%;
+    }
+
+    #CULTIVAYAPRENDE {
+        width: 16.0416%;
+        height: 67.39726%;
+    }
+
+    .pasosNum {
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        font-weight: 400;
+        margin: 0%;
+    }
+
+    .pasosTxt {
+        margin-top: 2.739726%;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.8vw;
+        font-weight: 700;
+        width: 131%;
+    }
+
+    #pasosMovil {
+        display: none;
+    }
+
+    #historia {
+        margin-top: 12.630579%;
+        aspect-ratio: 1920 / 1053;
+        background-image: url('colaboradores.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+    #historiaMovil {
+        display: none;
+    }
+
+    #QuienesSomosImg {
+        width: 50%;
+        height: 49.857549%;
+        margin-top: 5.887939%;
+    }
+
+    #QuienesSomos {
+        margin-top: 4.5vw;
+        margin-left: 2.916%;
+        width: 37.34375%; 
+    }
+
+    #QuienesSomosHead {
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        font-weight: 400;
+    }
+
+    #QuienesSomosTitulo {
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-top: 1.89933%;
+        width: 83.682%;
+        margin-bottom: 1vw;
+    }
+
+    #QuienesSomosParrafo {
+        margin-top: 0vw;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        letter-spacing: -0.02%;
+        padding-right: 11.1576%;
+    }
+
+    #VerMas {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-top:2vw;
+        height: 3vw;
+        width: 42.25941%;
+        border-radius: 50px;
+        border-color: black;
+        border-width: 0.3vw;
+        border-style: solid;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.8vw;
+    }
+
+    #VerMas:hover {
+        transform: scale(1.1,1.1)
+    }
+
+    #comunidadTitle {
+        margin-top: 14.44672%;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .comunidadImagenes {
+        height: 49.28279%;
+        width: 27.314%;
+        margin-bottom: 3.07377%;
+        margin-right: 2.27144%;
+    }
+
+    .comunidadImagenesSection {
+        display: flex;
+        margin-left: 8.28125%;    
+    }
+
+    #comunidadBox {
+        margin-left: 8.28125%;
+        margin-top: 5.12295%;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    #boxImg {
+        margin-left: 8.28125%;
+    }
+
+    #boxTextos {
+        margin-left: 8.28125%;
+        margin-top: 2vw;
+    }
+
+    .boxNum {
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        font-weight: 400;
+        margin: 0%;
+    }
+
+    .box {
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 4.55063%;
+        width: 17.29238%;
+    }
+
+    .boxImg {
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 4.55063%;
+        width: 17.29238%;
+        height: 69.2801%;
+    }
+
+    .boxTxt {
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.8vw;
+        font-weight: 700;
+        line-height: 2.5vw;
+        margin-top: 0.5vw;
+    }
+
+    #boxTxt4 {
+        width: 115%;
+    }
+
+    #boxMovil {
+        display: none;
+    }
+
+
+    #planesConDescuento {
+        background-image: url('¡OBTENE\ 10\ OFF!.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin-top: 3.81922%;
+        background-attachment: scroll;
+        padding-bottom: 2%;
+    }   
+
+    #planes {
+        background-image: url('Fondo\ suscripcion.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: scroll;
+    }
+
+    #planesTitle {
+        color:#FFF;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+        padding-top: 3.61938%;
+        margin: 0%;
+    }
+
+    #planesTipos {
+        margin-top: 4.32526%;
+        margin-left: 9.375%;
+    }
+
+    .planesTipos {
+        /*height: 64.73779%;
+        width: 26.2069%;*/
+        height: auto;
+        width: 30vw;
+        border-radius: 52px;
+        background-color: #FFF;
+        margin-right: 5.8046%;
+    }
+    .planesTipos a {
+        text-decoration: none; /* Elimina el subrayado de los enlaces dentro de .planesTipos */
+    }
+    .planesTipos a {
+        text-decoration: none; /* Elimina el subrayado de los enlaces dentro de .planesTipos */
+        border-bottom: none; /* Elimina la línea de enlace subrayada */
+        color: tu-color-preferido; /* Establece el color del texto del enlace */
+    }
+        
+
+    .planesTipos:hover {
+        cursor: pointer;
+        transform: scale(1.05,1.05);
+        border-width: 0.3vw;
+        border-color: #082D00;
+        border-style: solid;
+        height: auto;
+        width: 29.7vw;
+    }
+
+    .planesNombres {
+        margin-top: 5.72626%;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.8vw;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .planesImg {
+        width: 66.00877%;
+        height: 28.21229%;
+        margin-left: 17.9824%;
+    }
+
+    .planesTxtBasic {
+        margin-top: 3.91061%;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.2vw;
+        font-weight: 700;
+    }
+
+    .planesTxt {
+        margin-top: 1.53631%;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.2vw;
+        height: 5vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .planesPrecios {
+        margin-top: 2.51397%;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 3vw;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .planesTiempos {
+        margin-top: 0px;
+        text-align: center;
+        color: #082D00;
+        font-size: 1.2vw;
+        font-family: 'Manrope',sans-serif;
+    }
+
+    #descuentoTxt {
+        margin-top: 15vw;
+        text-align: center;
+        font-family: 'Manrope',sans-serif;
+        color: #FFF;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+
+    #botonDescuentoDiv {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #botonDescuento {
+        display: flex;
+        margin-top: 2.35081%;
+        margin-bottom: 4vw;
+        text-decoration: none;
+        color: #FFF;
+        width: 15.78125%;
+        height: 3.41103%;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.8vw;
+        font-weight: 400;
+        background-color: #DF3C4B;
+        border-radius: 50px;
+        text-align: center;
+        height: 3.5vw;
+        justify-content: center;
+        /*align-items: center;*/
+        padding-top: 0.7vw;
+    }
+
+    #botonDescuento:hover{
+        /*transform: scale(1, 1.1);*/
+        background-color: #bb313f;
+    }
+
+    #planesConDescuentoMovil{
+        display: none;
+    }
+
+    #FAQ {
+        margin-left: 9.21502%;
+        margin-top: 6.84%;
+    }
+
+    #FAQHead {
+        margin-top: 0;
+        margin-bottom: 1.56148%;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.2vw;
+    }
+
+    #FAQTitle {
+        margin-top: 2.34223%;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    .FAQText {
+        margin-top: 1.56148%;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.8vw;
+        font-weight: 700;
+    }
+
+    #VerMas2 {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-top:4.698%;
+        height: 3vw;
+        width: 17.25941%;
+        border-radius: 50px;
+        border-color: black;
+        border-width: 0.3vw;
+        border-style: solid;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.8vw;
+    }
+
+    #VerMas2:hover {
+        transform: scale(1.1,1.1);
+    }
+
+    #consulta {
+        margin-top: 13.53286%;
+        align-items: center;
+    }
+
+    #consultaImg {
+        width: 45.541353%;
+        aspect-ratio: 663/729;
+    }
+
+    #contactanos {
+        margin-top: 0vw;
+        margin-left: 5.54126%;
+        width: 60%;
+    }
+
+    #contactanosTitle {
+        margin: 0%;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    #contactanosSubTitle {
+        margin-top: 2.28509%;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.2vw;
+    }
+
+    #formulario {
+        margin-top: 3.9173%;
+    }
+
+    #nombre {
+        width: 38.45178%;
+        height: 9.75609%;
+    }
+
+    #apellido {
+        width: 38.45178%;
+        height: 9.75609%;
+        margin-left: 1.52284%;
+    }
+
+    #email {
+        width: 86.9264%;
+        height: 9.75609%;
+    }
+
+    #pregunta {
+        width: 86.9264%;
+        height: 21.95121%;
+    }
+
+    .forms {
+        margin-bottom: 5.8536%;
+        padding: 0%;
+        border: 0.1vw solid black;
+        padding: 2.76422%;
+        color: rgba(8, 45, 0, 0.50);
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.2vw;
+    }
+
+    #botonConsulta {
+        margin-left: 0%;
+        margin-top: 2.1138%;    
+        display: flex;
+        text-decoration: none;
+        color: #FFF;
+        width: 25.78125%;
+        height: 4vw;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.8vw;
+        font-weight: 400;
+        background-color: #DF3C4B;
+        border-radius: 50px; 
+    }
+
+    #botonConsulta:hover {
+        background-color: #bb313f;
+    }
+
+    #consultaMovil {
+        display: none;
+    }
+
+    #piePagina {
+        margin-top: 10%;
+        background-color: #082D00;
+        padding-bottom: 1%;
+    }
+
+    #piePagina1 {
+        height: 62.59947%;
+    }
+
+    #logoFooter {
+        width: 17.083%;
+        height: 27.11864%;
+        margin-top: 4.40678%;
+        margin-left: 8.4375%;
+    }
+
+    #pieContent {
+        width: 67.132867%;
+        margin-right: 0;
+        margin-left: 25%;    
+    }
+
+    #pieContactanosTxt {
+        margin-top: 4vw;
+        color: #FFF;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        line-height: 2.5vw;
+    }
+
+    #iconosRedes {
+        width: 70.79661%;
+        height: auto;
+    }
+
+    #pieInformacionTxt {
+        margin-top: 4vw;
+        color: #FFF;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        margin-left: 20%;
+        width: 100%;
+        line-height: 2.5vw;
+    }
+
+    #pieSobreNosotrosTxt {
+        margin-top: 4vw;
+        color: #FFF;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        line-height: 2.5vw;
+        margin-left: 70%;
+        width: 100%;
+    }
+
+    #pieFinal {
+        text-align: center;
+        color: #FFF;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        margin-top: 4.3478%;
+    }
+
+    #piePaginaMovil {
+        display: none;
+    }
+}
+
+body{
+    margin: 0%;
+}
+
+@media (max-width:376px){
+
+    #inicio {
+        background-image: url('inicio\ mobile.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+    .container {
+        display: none; 
+    }
+
+    .containerMovil {
+        display: flex;
+    }
+
+    #navbar {
+        height: 20.77605vw;
+       /* height: 9.52986%;*/
+        
+    }
+
+    #logo {
+        padding-left: 8.864448vw;
+        padding-top: 9.418476vw;
+        width: 27.424386vw;
+        height: 5.263266vw;
+        flex-shrink: 0;
+    }
+
+    .menu-btn {
+        margin-top: 9.69549vw;
+        margin-right: 5vw;
+        margin-left: auto;
+        width: 4.986252vw;
+        height: 4.432224vw;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-top: 3.35418%;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 0%;
+        width: 60%;
+        display: none;
+    }
+
+    .navbarContent {
+        margin-right: 5.32175%;
+        color: #082D00;
+        text-decoration: none;
+        font-size: 1.8vw;
+        font-family: 'Manrope', sans-serif;
+        text-align: center;
+        font-weight: 400;
+        
+    }
+
+    #navbarContentHistoria {
+        width: 29.5%;
+    }
+
+    nav ul li a:hover {
+        text-decoration:underline;
+    }
+
+    #title {
+        position: relative;
+        padding-left: 8.864448vw;
+        padding-top: 4.4322224vw;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 13.296672vw;
+        font-weight: 800;
+        text-align: left;
+        padding-bottom: 0%;
+        margin: 0%;
+        height: auto;
+        line-height: 15vw;
+    }
+
+    #parrafoSuscripcion {
+        padding-left: 8.864448vw;
+        width: auto;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4.432224vw;
+        font-weight: 400;
+        margin: 0%;
+        margin-top: 5vw;
+        height: 25.208274vw;
+        /*margin-top: -3vw; Ponerlo al final y ver que pasa, pero por tema de medidas no lo hago ahora*/
+    }
+
+    #botonUnite {
+        display: flex;
+        text-decoration: none;
+        color: #FFF;
+        margin-top: 3.878196vw;
+        margin-left: 8.587434vw;
+        width: 82.273158vw;
+        height: 11vw;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4.432224vw;
+        font-weight: 400;
+        background-color: #DF3C4B;
+        border-radius: 50px;
+    }
+
+    #botonUnite:hover {
+        background-color: #bb313f;
+    }
+
+    #parrafoPasos {  /*No pude poner la negrita*/
+        display: flex;
+        margin-top: 119.670048vw;
+        margin-bottom: 0%;
+        margin-left: 26.870358vw;
+        height: auto;
+        width: 50.984324vw;
+        color: #082D00;
+        font-size: 8.864448vw;
+        font-weight: 500;
+        font-family: 'Manrope', sans-serif;
+        text-align: center;
+    }
+
+   #pasosImg {
+        display: none;
+   }
+
+   #pasosTextos {
+        display: none;
+   }
+
+   #pasosMovil {
+    margin-top: 21.330078vw;
+   }
+
+   .pasosImgMovil {
+        margin-left: 18.282924vw;
+        width: 59.55801vw;
+   }
+
+   .pasosNumMovil {
+        margin-left: 8.864448vw;
+        font-size: 4.432224vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        margin-top: 5vw;
+        margin-bottom: 0%;
+   }
+
+   .pasosTxtMovil {
+    margin-left: 8.864448vw;
+    font-size: 6.648336vw;
+    color: #082D00;
+    font-family: 'Manrope',sans-serif;
+    margin-top: 0vw;
+    margin-bottom: 0%;
+    font-weight: 700;
+    margin-bottom: 9.69549vw;
+   }
+
+   #historia {
+        display: none;
+   }
+
+   #historiaMovil {
+        margin-top: 16.62084vw;
+   }
+
+   #QuienesSomosImgMovil {
+        /*height: 61.774122vw;*/
+        width: 100%;
+   }
+
+   #QuienesSomosMovil {
+        margin-left: 8.864448vw;
+        margin-top: 14.958756vw;
+   }
+
+   #QuienesSomosTitleMovil {
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+        margin: 0%;
+   }
+
+   #QuienesSomosSubTitleMovil {
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 8.864448vw;
+        margin: 0%;
+        margin-top: 4vw;
+        font-weight: 500;
+   }
+
+   #QuienesSomosParrafoMovil {
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+        margin: 0%;
+        margin-top: 4vw;
+        padding-right: 5vw;
+   }
+
+   #VerMasMovil {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-top:7vw;
+        height: 9.418476vw;
+        width: 82.273158vw;
+        border-radius: 50px;
+        border-color: black;
+        border-width: 0.4vw;
+        border-style: solid;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4.432224vw;
+   }
+
+   #VerMasMovil:hover {
+    transform: scale(1.05,1.05)
+    }
+
+    #colaboracionMovil {
+        width: 100%;
+    }
+
+    #comunidadTitle {
+        margin-top: 13.019658vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 8.864448vw;
+        font-weight: 500;
+        width: 90%;
+        margin-left: 4vw;
+    }
+
+    .comunidadImagenes {
+        height: auto;
+        width: 81.996144vw;
+        margin-bottom: 8.31042vw;
+        margin-left: 6.92535vw;
+    }
+
+    #comunidadBox {
+        
+        margin-top: 6.371322vw;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 8.864448vw;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 5vw;
+        width: 60%;
+        margin-left: 18vw;
+    }
+
+    .boxImgMovil {
+        margin-left: 10.404728vw;
+        width: 70.915584vw;
+        margin-top: 13.8507vw;
+    }
+    
+   .boxNumMovil {
+        margin-left: 6.864448vw;
+        font-size: 4.432224vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        margin-top: 3.601182vw;
+        margin-bottom: 0%;
+    }
+
+    .boxTxtMovil {
+        margin-left: 6.864448vw;
+        font-size: 6.648336vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        margin-top: 0vw;
+        margin-bottom: 0%;
+        font-weight: 700;
+        /*margin-bottom: 9.69549vw;*/
+    }
+
+    #planesConDescuento{
+        display: none;
+    }
+
+    #planesConDescuentoMovil{
+        background-image: url('Oferta\ mobile-100.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+       /* margin-top: 3.81922%;*/
+        background-attachment: scroll;
+        padding-bottom: 2%;
+        margin-top: 11.08056vw;
+        height: 594vw;
+    }
+
+    #planesMovil {
+        background-image: url('Vector\ 1\ mobile.png');
+        background-repeat: no-repeat;
+        background-size: auto 530vw; /*cambiar a contain*/
+        background-attachment: scroll;
+        height: 530vw;
+    }
+
+    #planesTitleMovil {
+        color:#FFF;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 8.864448vw;
+        font-weight: 500;
+        padding-top: 14.404728vw;
+        margin: 0%;
+    }
+
+    #planesTiposMovil {
+        margin-top: 4.986252vw;
+        margin-left:  7vw;
+    }
+
+    .planesTipos {
+        height: 144.04728vw;
+        width: 82.273158vw;
+        border-radius: 52px;
+        background-color: #FFF;
+        margin-bottom: 8.033406vw;
+    }
+
+    .planesNombres {
+        padding-top: 6.92535vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 6.648336vw;
+        font-weight: 700;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .planesImg {
+        width: 62.882178vw;
+        height: 42.106128vw;
+        margin-left: 7.756392vw;
+        margin-top: 6.094308vw;
+    }
+
+    .planesTxtBasic {
+        margin-top: 8.587434vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+        font-weight: 700;
+        margin-bottom: 0%;
+    }
+
+    .planesTxt {
+        margin-top: 0vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+        margin-bottom: 0%;
+    }
+
+    .planesPrecios {
+        margin-top: 3.601182vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 8.864448vw;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .planesTiempos {
+        margin-top: 0px;
+        text-align: center;
+        color: #082D00;
+        font-size: 4.432224vw;
+        font-family: 'Manrope',sans-serif;
+        margin-bottom: 0%;
+    }
+
+    #descuentoTxtMovil {
+        margin-top: 40.16703vw;
+        text-align: center;
+        font-family: 'Manrope',sans-serif;
+        color: #FFF;
+        font-size: 8.864448vw;
+        font-weight: 500;
+        margin-bottom: 0px;
+        width: 80vw;
+        margin-left: 8vw;
+    }
+
+    #botonDescuentoDivMovil {
+        display: flex;
+        justify-content: center;  
+    }
+
+    #botonDescuentoMovil {
+        margin-top: 4.15521vw;
+        margin-bottom: 0vw;
+        line-height: 9vw;
+        text-decoration: none;
+        color: #FFF;
+        width: 82.273158vw;
+        height: 10vw;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4.432224vw;
+        font-weight: 400;
+        background-color: #DF3C4B;
+        border-radius: 50px;
+        text-align: center;
+        padding-top: 1vw;
+    }
+
+    #botonDescuentoMovil:hover{
+        /*transform: scale(1, 1.1);*/
+        background-color: #bb313f;
+    }
+
+    #FAQ {
+        margin-left: 8.864448vw;
+        margin-top: 13.019658vw;
+    }
+
+    #FAQHead {
+        margin-top: 0;
+        margin-bottom: 0px;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+    }
+
+    #FAQTitle {
+        margin-top: 3.601182vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 8.864448vw;
+        font-weight: 500;
+        width: 70vw;
+        margin-bottom: 7vw;
+    }
+
+    .FAQText {
+        margin-top: 3vw;
+        margin-bottom: 0vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+        font-weight: 700;
+        width: 75vw;
+    }
+
+    #VerMas2 {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4.432224vw;
+        height: 9.418476vw;
+        width: 82.273158vw;
+        border-radius: 50px;
+        border-color: black;
+        border-width: 0.4vw;
+        border-style: solid;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4.432224vw;
+    }
+
+    #VerMas2:hover {
+        transform: scale(1.05,1.05);
+    }
+
+    #consultaMovil {
+        margin-top: 16.62084vw;
+    }
+
+    #consultaImg {
+        margin-left: 1.108056vw;
+        width: 78.94899vw;
+        aspect-ratio: 663/729;
+    }
+
+    #contactanos {
+        margin-top: 10.803546vw;
+        width: 100%;
+    }
+
+    #contactanosTitle {
+        margin: 0%;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 8.864448vw;
+        font-weight: 500;
+    }
+
+    #contactanosSubTitle {
+        margin-top: 5vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+    }
+
+    #formulario {
+        margin-top: 6vw;
+    }
+
+    #pregunta {
+        /*width: 86.9264%;*/
+        height: 32.687652vw;
+    }
+
+    .forms {
+        width: 76.732878vw;
+        height: 11.911602vw;
+        margin-bottom: 5vw;
+        padding: 0vw;
+        border: 0.554028vw solid black;
+        padding-left: 4.709238vw;
+        padding-top: 2.354619vw;
+        padding-bottom: 2.354619vw;
+        color: rgba(8, 45, 0, 0.50);
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+        border-width: 0.4vw;
+    }
+
+    #botonConsulta {
+        margin-left: 0vw;
+        margin-top: 0%;    
+        display: flex;
+        text-decoration: none;
+        color: #FFF;
+        width: 80.732878vw;
+        height: 9.418476vw;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4.432224vw;
+        font-weight: 400;
+        background-color: #DF3C4B;
+        border-radius: 50px; 
+        
+    }
+
+    #botonConsulta:hover {
+        background-color: #bb313f;
+    }
+
+    #pieFinal {
+        display: none;
+    }
+
+    #piePaginaMovil {
+        margin-top: 17.174868vw;
+        background-color: #082D00;
+        padding-bottom: 0%;
+        margin-bottom: 0vw;
+        padding-top: 8.587434vw;
+    }
+
+    .pieTxt {
+        color: #FFF;
+        margin-top: 5vw;
+        margin-left: 9.69549vw;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+    }
+
+    #logoFooterDiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logoFooter {
+        width: 44.876268vw;
+        height: 8.864448vw;
+        margin-top: 8.864448vw;
+    }
+
+    #pieFinalMovil {
+        text-align: center;
+        color: #FFF;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4.432224vw;
+        margin-top: 5vw;
+    }
+}

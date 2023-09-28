@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100&family=Manrope&display=swap');
+
+body {
+    margin: 0%;
+}
+
+#inicio {
+    background-image: url('Vector fondo inicio.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 57.965vw;
+}
+
+.container {
+    display: flex; 
+}
+
+#navbar {
+    height: auto;
+    width: 100%;
+    padding-top: 3.6vw;
+}
+
+#logo {
+    margin-left: 8.1vw;
+    margin-top: -0.65vw;
+    width: 16.4vw;
+    height: 3.2vw;
+    flex-shrink: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 7.95vw;
+    margin-top: 0vw;
+    width: 58.636%;
+}
+
+.navbarContent {
+    margin-right: 5.32175%;
+    color: #082D00;
+    text-decoration: none;
+    font-size: 1.8vw;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+#navbarContentHistoria {
+    width: 29.5%;
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+#imagenBox {
+    margin-top: 8.9vw;
+    margin-left: 9.5vw;
+    width: 37.65vw;
+    height: 25.25vw;
+}
+
+#presentacionBox {
+    margin-left: 2.85vw;
+    margin-top: 3.25vw;
+}
+
+#titleSection {
+    color: #DF3B4B;
+    font-size: 1.2vw;
+    font-family: 'Manrope',sans-serif;
+}
+
+#planTiempo {
+    margin: 0%;
+    margin-top: 3.75vw;
+    color: #082D00;
+    font-size: 1.2vw;
+    font-family: 'Manrope',sans-serif;
+}
+
+#planNombre {
+    margin: 0%;
+    margin-top: 1.1vw;
+    color: #082D00;
+    font-size: 3vw;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 800;
+}
+
+#planDescripcion {
+    margin: 0%;
+    color: #082D00;
+    font-size: 1.8vw;
+    font-family: 'Manrope',sans-serif;
+    width: 75%;
+}
+
+#planPrecio {
+    margin: 0%;
+    margin-top: 1.6vw;
+    color: #082D00;
+    font-size: 3vw;
+    font-family: 'Manrope',sans-serif;
+}
+
+ #planBoton {
+    display: flex;
+    margin: 0%;
+    margin-top: 1.75vw;
+    width: 15.15vw;
+    height: 3vw;
+    background-color: #DF3B4B;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.8vw;
+    font-family: 'Manrope',sans-serif;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+
+ #planBoton:hover {
+    background-color: #bb313f;
+ }
+
+ #queRecibo {
+    margin: 0%;
+    margin-top: 4.1vw;
+ }
+
+ #queReciboTitle {
+    text-align: center;
+    color: #082D00;
+    font-size: 3vw;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 500;
+ }
+
+ #queReciboImg {
+    margin-left: 19.7vw;
+ }
+
+ .ImgRecibo {
+    height: 12.05vw;
+    width: auto;
+    margin-right: 5.354vw;
+ }
+
+ .NumRecibo {
+    margin: 0vw;
+    margin-top: 0.95vw;
+    margin-right: 19.2vw;
+    color: #082D00;
+    font-size: 1.2vw;
+    font-family: 'Manrope',sans-serif;
+ }
+
+.TxtRecibo {
+    margin: 0vw;
+    margin-top: 0.5vw;
+    /*margin-right: 2.35vw;*/
+    color: #082D00;
+    font-size: 1.8vw;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 700;
+    line-height: 2vw;
+}
+
+#TxtRecibo1 {
+    margin-right: 10.2vw;
+}
+
+#TxtRecibo2 {
+    margin-right: 9.2vw;
+}
+
+#TxtRecibo4 {
+    margin-right: 3.6vw;
+}
+
+#TxtRecibo5 {
+    margin-right: 10.9vw;
+}
+
+#queReciboImg2 {
+    margin-top: 3.15vw;
+}
+
+#mediosDePago {
+    margin-top: 5.25vw;
+}
+
+#medioDePagoImg {
+    width: 100%;
+}
+
+#sigamosAprendiendo {
+    margin-top: 10.5vw;
+}
+
+#sigamosAprendiendoImg {
+    margin-left: 8.1vw;
+    width: 39.4vw;
+    height: 27.45vw;
+}
+
+#consejos {
+    margin-left: 2.3vw;
+}
+
+#consejosPre {
+    margin: 0vw;
+    color: #082D00;
+    font-size: 1.2vw;
+    font-family: 'Manrope',sans-serif;
+}
+
+#consejosTitle {
+    margin: 0vw;
+    margin-top: 1vw;
+    color: #082D00;
+    font-size: 3vw;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 500;
+    line-height: 3vw;
+}
+
+#listaConsejos {
+    margin-top: 1.6vw;
+}
+
+.filas {
+    margin-bottom: 1.5vw;
+}
+
+.punto {
+    width: 1.8vw;
+    height: 1.7vw;
+}
+
+.consejosContent {
+    margin: 0vw;
+    color: #082D00;
+    font-size: 1.2vw;
+    font-family: 'Manrope',sans-serif;
+    margin-left: 5vw;
+    margin-top: -3.5vw;
+    width: 67%;
+}
+
+#seguiExplorando {
+    background-image: url(Fondo\ suscripcion.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin-top: 5.65vw;
+    padding-top: 5.65vw;
+    padding-bottom: 9.65vw;
+}
+
+#seguiExplorandoTitle {
+    margin: 0%;
+    margin-top: 2.75vw;
+    color: #FFF;
+    font-size: 3vw;
+    font-family: 'Manrope',sans-serif;
+    text-align: center;
+}
+
+#planesTipos {
+    margin-top: 2.197vw;
+    justify-content: center;
+}
+
+.planesTipos {
+    /*height: 64.73779%;
+    width: 26.2069%;*/
+    height: auto;
+    width: 23.25vw;
+    border-radius: 52px;
+    background-color: #FFF;
+    margin-right: 5.05vw;
+}
+/*
+.planesTipos:hover {
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+    border-width: 0.3vw;
+    border-color: #082D00;
+    border-style: solid;
+    height: auto;
+    width: 29.7vw;
+}
+*/
+.planesNombres {
+    margin-top: 2.05vw;
+    color: #082D00;
+    font-family: 'Manrope',sans-serif;
+    font-size: 1.8vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.planesImg {
+    width: 15.1vw;
+    height: 10.1vw;
+    margin-left: 4vw;
+}
+
+.planesTxtBasic {
+    margin-top: 0.95vw;
+    text-align: center;
+    color: #082D00;
+    font-family: 'Manrope',sans-serif;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.planesTxt {
+    margin-top: 0.55vw;
+    text-align: center;
+    color: #082D00;
+    font-family: 'Manrope',sans-serif;
+    font-size: 1.2vw;
+    height: 5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.planesPrecios {
+    margin-top: 1.9vw;
+    text-align: center;
+    color: #082D00;
+    font-family: 'Manrope',sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.planesTiempos {
+    margin-top: 0px;
+    text-align: center;
+    color: #082D00;
+    font-size: 1.2vw;
+    font-family: 'Manrope',sans-serif;
+}
+
+#piePagina {
+    margin-top: 3.1vw;
+    background-color: #FFF;
+    padding-bottom: 1.8vw;
+}
+/*
+#piePagina1 {
+    height: 62.59947%;
+}
+*/
+#logoFooter {
+    width: auto;
+    height: 3.2vw;
+    margin-top: 0vw;
+    margin-left: 8.1vw;
+}
+
+#pieContent {
+    width: 67.132867%;
+    margin-right: 0;
+    margin-left: 23.6vw;    
+}
+
+#pieContactanosTxt {
+    margin-top: 0vw;
+    color: #082D00;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2vw;
+    line-height: 2.5vw;
+}
+
+#iconosRedes {
+    width: 7.8vw;
+    height: auto;
+}
+
+#pieInformacionTxt {
+    margin-top: 0vw;
+    color: #082D00;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2vw;
+    margin-left: 3vw;
+    width: 100%;
+    line-height: 2.5vw;
+}
+
+#pieSobreNosotrosTxt {
+    margin-top: 0vw;
+    color: #082D00;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2vw;
+    line-height: 2.5vw;
+    margin-left: 3vw;
+    width: 100%;
+}
+
+#pieFinal {
+    text-align: center;
+    color: #082D00;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2vw;
+    margin-top: 2.6vw;
+}
